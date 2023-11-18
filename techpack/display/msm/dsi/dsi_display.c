@@ -5224,9 +5224,6 @@ static DEVICE_ATTR(fod_ui, 0444,
 static struct attribute *display_fs_attrs[] = {
 	&dev_attr_fod_ui.attr,
 	&dev_attr_hbm.attr,
-#ifdef CONFIG_DRM_SDE_EXPO
-	&dev_attr_dimlayer_exposure.attr,
-#endif
 	NULL,
 };
 
